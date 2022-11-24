@@ -1,0 +1,82 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+
+.background{
+    background-color: aliceblue;
+    min-height: 100vh;
+    width: 100%;
+   display: grid;
+   place-content: center;
+}
+
+.conteudo{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: 0 auto
+}
+
+.secao-foto{
+    width: 50%;
+    padding: 5px;
+
+}
+.secao-foto img{
+    width: 100%;
+    border-radius: 15px;
+}
+.secao-info{
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.secao-info h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(7, 7, 114);
+}
+.secao-info h3{
+    font-size: 13px;
+    color: rgb(107, 107, 107);
+    
+}
+
+.secao-info p{
+    color: rgb(66, 66, 66);
+}
+
+
+.box-countdown{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.box-hora{
+    background-color: rgb(7, 7, 114);
+    color: #fff;
+    padding: 2px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 15%;
+    box-shadow: 2px 2px 3px rgb(126, 126, 126);
+    letter-spacing: 2px;
+}
+.box-hora h4{
+    font-size: 30px;
+}
+
+.box-hora span{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
