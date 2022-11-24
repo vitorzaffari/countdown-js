@@ -1,6 +1,6 @@
 Countdown project made with vanilla JS<br>
-This project is part of a Jhon Smilga course where he teaches basic projects in vanilla JS
-The page will always start by adding 10 days from the momment it's opened, updating weekdays and months aswell.<br>
+This project is part of a Jhon Smilga course where he teaches basic projects in vanilla JS<br>
+The page will always start by adding 10 days from the momment it's opened, updating weekdays and months aswell.
 <br><br>
 <img src='assets/to_readme/teste.gif'/>
 <br><br>
